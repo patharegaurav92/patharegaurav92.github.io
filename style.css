@@ -185,7 +185,7 @@ p{
 #section-a li{
     flex:1;
     margin:0.5em;
-    padding:0.4em;
+    padding:0.7em;
 }
 
 #section-b ul {
@@ -194,7 +194,7 @@ p{
 #section-b li{
     flex:1;
     margin:0.5em;
-    padding:0.4em;
+    padding:0.7em;
 }
 
 #section-c ul {
@@ -203,7 +203,7 @@ p{
 #section-c li{
     flex:1;
     margin:0.5em;
-    padding:0.4em;
+    padding:0.7em;
 }
 
 #section-d ul {
@@ -212,8 +212,9 @@ p{
 #section-d li{
     flex:1;
     margin:0.5em;
-    padding:0.4em;
+    padding:0.7em;
 }
+
 
 
 
