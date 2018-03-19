@@ -7,26 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-    $('#section-a .content-wrap li')
-    .on('mouseenter', function(){
-        var div = $(this);
-        div.stop(true, true).animate({ 
-            margin: -10,
-            width: "+=20",
-            height: "+=20"
-        }, 'fast');
-    })
-    .on('mouseleave', function(){
-        var div = $(this);
-        div.stop(true, true).animate({ 
-            margin: 0,
-            width: "-=20",
-            height: "-=20"
-        }, 'fast');
-    })
-
-    </script>
     <title>Gaurav Pathare</title>
 </head>
 
@@ -50,6 +30,7 @@
     <main id="main">
         <!-- Section A Work Experience -->
         <section id="section-a" class="grid">
+            <div class="bg-image"></div>
             <div class="content-wrap">
                 <h2 class="content-title">
                     Work Experience
@@ -108,6 +89,7 @@
 
         <!-- Section B Education -->
         <section id="section-b" class="grid">
+                <div class="bg-image"></div>
             <div class="content-wrap">
                 <h2 class="content-title">Education</h2>
                 <ul>
@@ -147,6 +129,7 @@
 
         <!-- Section C Technical Skills -->
         <section id="section-c" class="grid">
+                <div class="bg-image"></div>
             <div class="content-wrap">
                 <h2 class="content-title">Technical Skills</h2>
                 <ul>
@@ -196,6 +179,7 @@
 
         <!-- Section D Projects -->
         <section id="section-d" class="grid">
+            <div class="bg-image"></div>
             <div class="content-wrap">
                 <h2 class="content-title">Academic Projects</h2>
                 <ul>
@@ -237,3 +221,4 @@
     </main>
 
 </body>
+</html>
