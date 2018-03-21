@@ -177,7 +177,7 @@ p{
 
 /*Media Query*/
 
-@media(min-width:1000px){
+@media(min-width:700px){
 
 #showcase{
     display:grid;
@@ -189,7 +189,7 @@ p{
 }
 
 #section-a ul {
-    display:flex;
+    display:flex; 
 }
 #section-a li{
     flex:1;
